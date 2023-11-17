@@ -178,7 +178,7 @@ namespace ContactManagementApp.Tests.TestCases
             {
                 contactservice.Setup(repo => repo.CreateContact(_contact)).ReturnsAsync(_contact);
                 var result = await _contactService.CreateContact(_contact);
-                if (result != null || result.Phone !=null)
+                if (result != null)
                 {
                     res = true;
                 }
