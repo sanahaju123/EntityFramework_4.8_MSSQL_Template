@@ -18,7 +18,7 @@ namespace ContactManagementApp.DAL.Services
             _repository = repository;
         }
 
-        public Task<Contact> CreateContact(Contact expense)
+        public Task<Contact> CreateContact(Contact contact)
         {
             //write your code here
             throw new NotImplementedException();

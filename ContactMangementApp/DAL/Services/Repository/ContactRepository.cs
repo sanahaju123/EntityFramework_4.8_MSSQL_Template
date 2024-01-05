@@ -16,7 +16,7 @@ namespace ContactManagementApp.DAL.Services.Repository
         }
 
 
-        public async Task<Contact> CreateContact(Contact expense)
+        public async Task<Contact> CreateContact(Contact contact)
         {
             //write your code here
             throw new NotImplementedException();
